@@ -1,0 +1,31 @@
+.inverted-background {
+  background-color: black;
+  color: white;
+}
+
+.inverted-again {
+  background-color: white;
+  color: black;
+}
+
+.click-hidden {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click-hidden:hover {
+  text-decoration: underline;
+}
+.click-show {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click-show:hover {
+  text-decoration: underline;
+}
+
+#box-hidden {
+  border: 2px solid #098784;
+  display: none;
+}

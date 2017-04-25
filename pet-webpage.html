@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/scripts.js"></script>
   <head>
     <title>Greco's page</title>
   </head>
   <body>
-    <h1>Favorite Toys</h1>
-    <ol>
-      <li>Squeaky <strong>Raccoon</strong></li>
-      <li>Colorful Rope</li>
-      <li>Michael's Tennis Shoes :(</li>
-    </ol>
-<img src="img/raccoon.jpeg" alt="an image of the worst animal">
+    <button class="btn btn" id="invert">Invert</button>
+    <button class="btn btn" id="inverts">Original</button>
+    <div class="container">
+      <h1>Favorite Toys</h1>
+      <ol>
+        <li>Squeaky <strong>Raccoon</strong></li>
+        <li>Colorful Rope</li>
+        <li>Michael's Tennis Shoes :(</li>
+      </ol>
+      <img src="img/raccoon.jpeg" alt="an image of the worst animal">
 
-    <h2>Favorite Activities</h2>
-    <ul>
-      <li>Going on walks</li>
-      <li>Jumping</li>
-      <li><em>Begging for food</em></li>
-      <li>Wrestling</li>
-    </ul>
-
-    <h3>About Me</h3>
-    <p>I'm a Heeler/Australian Shepherd with a gorgeous black and grey spotted coat who hails from Mexico. You already know my favorite toys and activities, but what you didn't know is I think it's totally cool to <a href="http://lotpdogtraining.com/">pee in the house...</a></p>
+      <div id="box-show">
+        <h2><span class="click-show">Favorite Activities</span></h2>
+        <ul>
+          <li>Going on walks</li>
+          <li>Jumping</li>
+          <li><em>Begging for food</em></li>
+          <li>Wrestling</li>
+        </ul>
+      </div>
+      <div id="box-hidden">
+        <h2><span class="click-show">Favorite Activities</span></h2>
+        <ul>
+          <li>Going on walks</li>
+          <li>Jumping</li>
+          <li><em>Begging for food</em></li>
+          <li>Wrestling</li>
+        </ul>
+      </div>
+      <h3>About Me</h3>
+      <p>I'm a Heeler/Australian Shepherd with a gorgeous black and grey spotted coat who hails from Mexico. You already know my favorite toys and activities, but what you didn't know is I think it's totally cool to <a href="http://lotpdogtraining.com/">pee in the house...</a></p>
+    </div>
   </body>
 </html>
